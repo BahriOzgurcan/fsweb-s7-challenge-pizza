@@ -1,0 +1,145 @@
+.order-container-header {
+    margin-top: 1rem;
+}
+
+.input-alert {
+    color: #CE2829;
+    font-size: 1rem;
+}
+
+#size-dropdown {
+    width: fit-content;
+    border-color: #CE2829;
+}
+#size-dropdown:focus {
+    box-shadow: 0 0 15px rgba(131, 9, 9, 0.716);
+}
+
+#size-dropdown:disabled {
+    background-color: hsla(0, 34%, 17%, 0.302);
+    /* filter: blur(2px); */
+    filter: opacity(50%);
+}
+
+.checkbox:disabled {
+    background-color: hsla(0, 34%, 17%, 0.302);
+    /* filter: blur(2px); */
+    filter: opacity(50%);
+}
+
+.input-alert {
+    font-weight: 700;
+    font-size: small;
+    max-width: 20rem;
+}
+
+.aciklama>p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+
+    display: flex;
+    align-items: center;
+
+    color: #5F5F5F;
+
+}
+
+label {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #5F5F5F;
+
+}
+
+
+#pizza-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-top-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.extras-container {
+    width: 100%;
+}
+
+.text-input-container {
+    width: 100%;
+}
+
+.thickness-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+    width: min-content;
+}
+
+.size-container {
+    display: flex;
+    height: 100%;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.checkout-card {
+    border-top: 2 px solid;
+    border-color: #5F5F5F;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.form-check-input:checked{
+    background-color: #CE2829;
+    border-color: #CE2829;
+}
+.form-check-input:not(:checked){
+    border-color: #CE2829;
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 5px rgba(131, 9, 9, 0.716);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 15px rgba(131, 9, 9, 0.716);
+}
+
+.ingredients {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.form-check {
+    margin: 1rem 0 1rem 0 ;
+}
+
+/* 
+    .active {
+        box-shadow: 0px 2rem white;
+    } */

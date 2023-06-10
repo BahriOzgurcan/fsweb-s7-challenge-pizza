@@ -1,0 +1,57 @@
+.home-text {
+    margin-top: 2rem;
+}
+
+.home-background-red {
+    background-color: #CE2829;
+    height: 100vh;
+}
+
+.home-text-detail {
+    font-family: "Barlow", sans-serif;
+    transform: scaleY(2);
+    font-size: 2rem;
+    letter-spacing: .25rem;
+    font-weight: 200;
+    color: #FAF7F2;
+    text-align: center;
+}
+
+.home-button {
+    display: flex;
+    width: 8rem;
+    height: 3rem;
+    color: #292929;
+    background-color: #FDC913;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    transform: scaleY(.9);
+    font-size: 1rem;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  5px 7px #292929;
+}
+
+.pizza-png {
+    display: flex;
+    transform: rotate(180deg);
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media only screen and (min-height: 750px) {
+
+    .pizza-png {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) rotate(180deg);
+    }
+
+}

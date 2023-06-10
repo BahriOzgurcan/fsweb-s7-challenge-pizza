@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+
+#increase {
+    background-color: #FDC913;
+    border-color: #FDC913;
+    color: #292929;
+    margin-left: 0.5rem;
+}
+#decrease {
+    background-color: #FDC913;
+    border-color: #FDC913;
+    color: #292929;
+    margin-left: 0.5rem;
+}
+#order-button {
+    background-color: #FDC913;
+    border-color: #FDC913;
+    color: #050505;
+}

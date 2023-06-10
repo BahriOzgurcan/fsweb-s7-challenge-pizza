@@ -1,0 +1,43 @@
+.background-red {
+    background-color: #CE2829;
+    height: 12rem;
+}
+
+.top-nav-bar {
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 0.25rem;
+    justify-content: center;
+    align-items: baseline;
+}
+
+a {
+    margin: 1rem;
+    margin-bottom: 0.25rem;
+    text-decoration: none;
+    color: #FAF7F2;
+    font-family: "Barlow", sans-serif;
+    /* font-weight: bold; */
+}
+
+.top-nav-bar :hover {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.active {
+    font-weight: bold;
+    text-decoration: solid;
+    font-family: "Barlow", sans-serif;
+    font-size: larger;
+    text-shadow: 0px 0px pink;
+    color: #CE2829;
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px;
+    margin-bottom: -1rem;
+    /* border: 0.2rem solid; */
+    border-color: white;
+}
