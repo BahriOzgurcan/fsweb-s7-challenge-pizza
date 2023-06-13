@@ -13,7 +13,7 @@ const Home = () => {
                 <Header />
                 <div className='home-text'>
                     <p className="home-text-detail">KOD ACIKTIRIR</p>
-                    <p className="home-text-detail">PIZZA DOYURUR</p>
+                    <p className="home-text-detail">PİZZA DOYURUR</p>
                 </div>
                 <Link className="home-button" id='order-pizza' to="/pizza">
                     ACIKTIM

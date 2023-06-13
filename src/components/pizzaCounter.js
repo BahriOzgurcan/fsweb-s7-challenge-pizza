@@ -10,14 +10,14 @@ const CounterButton = ({ isButtonDisabled, counterHandler, numberOfPizza, pizzaS
 
         <>
         <div>
-            <h3>Siparis Karti</h3>
-            <h6>Pizza Boyutu Ucret {sizePrice} TL</h6>
-            <h6>Pizza Kalinligi Ucret {thicknessPrice} TL</h6>
+            <h3>Sipariş Kartı</h3>
+            <h6>Pizza Boyutu Ücret {sizePrice} TL</h6>
+            <h6>Pizza Kalınlığı Ücret {thicknessPrice} TL</h6>
             <h6>Ek Malzemeler {extrasPrice} TL</h6>
-            <h5>Pizza Ucreti {totalPrice} TL</h5>
+            <h5>Pizza Ücreti {totalPrice} TL</h5>
         </div>
             <div className="button">
-                <h6>Pizza adeti sec</h6>
+                <h6>Pizza adeti seç</h6>
                 <div>
                     <Button
                         color="primary"
@@ -40,7 +40,7 @@ const CounterButton = ({ isButtonDisabled, counterHandler, numberOfPizza, pizzaS
                     </Button>{' '}
                 </div>
                 <h5>Toplam {totalPrice * numberOfPizza}  TL</h5>
-                <Button id="order-button" type="submit" disabled={isButtonDisabled}>SIPARIS VER</Button>
+                <Button id="order-button" type="submit" disabled={isButtonDisabled}>SİPARİŞ VER</Button>
             </div>
         </>
     )

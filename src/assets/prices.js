@@ -1,29 +1,29 @@
 
 const size = [
     {
-        label: "small", price: 10, turkishName: "Kucuk",
+        label: "small", price: 10, turkishName: "Küçük",
     },
     {
         label: "medium", price: 20, turkishName: "Orta",
     },
     {
-        label: "large", price: 30, turkishName: "Buyuk",
+        label: "large", price: 30, turkishName: "Büyük",
     }];
 
 const thickness = [
     {
-        label: "thin", price: 0, turkishName: "Ince Hamur",
+        label: "thin", price: 0, turkishName: "İnce Hamur",
     },
     {
         label: "standart", price: 20, turkishName: "Standart Hamur",
     },
     {
-        label: "thick", price: 30, turkishName: "Kalin Hamur",
+        label: "thick", price: 30, turkishName: "Kalın Hamur",
     }];
 
 const ingredients = [
     {
-        label: "Ilave Mozarella",
+        label: "İlave Mozarella",
         price: 7,
     },
     {
@@ -35,7 +35,7 @@ const ingredients = [
         price: 10,
     },
     {
-        label: "Sarimsak Sos",
+        label: "Sarımsak Sos",
         price: 2,
     },
     {
@@ -55,7 +55,7 @@ const ingredients = [
         price: 2,
     },
     {
-        label: "Sogan",
+        label: "Soğan",
         price: 3,
     },
     {

@@ -11,13 +11,13 @@ const Success = ({ orderCheck }) => {
 
             {orderCheck === true ?
                 <div className='checkout'>
-                    <p className="checkout-message">TEBRIKLER!</p>
-                    <p className="checkout-message">SIPARISINIZ ALINDI!</p>
+                    <p className="checkout-message">TEBRİKLER!</p>
+                    <p className="checkout-message">SİPARİŞİNİZ ALINDI!</p>
                 </div>
 
                 : <div className='checkout'>
-                    <p className="checkout-message">HENUZ SIPARIS GIRILMEMIS :(</p>
-                    <p className="checkout-message">MIDEN SENI CAGIRIYOR!</p>
+                    <p className="checkout-message">HENÜZ SİPARİŞ GİRİLMEMİŞ :(</p>
+                    <p className="checkout-message">MİDEN SENİ ÇAĞIRIYOR!</p>
                 </div>}
         </div>
     );

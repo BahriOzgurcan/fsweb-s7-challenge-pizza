@@ -172,7 +172,7 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
             <div className='container'>
                 <div className="order-container-header">
                     <div className="aciklama" style={{ maxWidth: "45rem" }}>
-                        <h2>Pizzani Yarat</h2>
+                        <h2>Pizzanı Yarat</h2>
                         <div>Kalan pizza adeti: {pizzaStock}</div>
                         <Divider />
                         <p>Frontend Dev olarak hala position:absolute kullanıyorsan bu çok acı pizza tam sana göre. Pizza, domates, peynir ve genellikle çeşitli diğer malzemelerle kaplanmış, daha sonra geleneksel olarak odun ateşinde bir fırında yüksek sıcaklıkta pişirilen, genellikle yuvarlak, düzleştirilmiş mayalı buğday bazlı hamurdan oluşan İtalyan kökenli lezzetli bir yemektir..Küçük bir pizzaya bazen pizzetta denir.</p>
@@ -184,7 +184,7 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
                     <div className="form-top-card">
                         <FormGroup className="size-container">
                             <legend>
-                                Boyut Sec{!isSizeSelected && <span style={{ color: "red" }}>*</span>}
+                                Boyut Seç{!isSizeSelected && <span style={{ color: "red" }}>*</span>}
                             </legend>
 
                             {priceData.size.map((size, index) => {
@@ -204,14 +204,14 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
                                         </FormGroup>
                                     </div>)
                             })}
-                            {!isSizeSelected ? <span className='input-alert' >Pizzani olusturmaya once pizza boyutu secerek basla. Acele et miden hata veriyor!!!</span> : <span className='input-alert' style={{ visibility: "hidden" }} > Pizzani olusturmaya once pizza boyutu secerek basla. Acele et miden hata veriyor!!!</span>}
+                            {!isSizeSelected ? <span className='input-alert' >Pizzanı oluşturmaya önce pizza boyutu seçerek başla. Acele et miden hata veriyor!!!</span> : <span className='input-alert' style={{ visibility: "hidden" }} > Pizzani olusturmaya once pizza boyutu secerek basla. Acele et miden hata veriyor!!!</span>}
                         </FormGroup>
 
                         {/* Dropdown Selection */}
 
                         <FormGroup className="thickness-container">
                             <legend >
-                                Hamur Sec{isSizeSelected && !isThicknessSelected && <span style={{ color: "red" }}>*</span>}
+                                Hamur Seç{isSizeSelected && !isThicknessSelected && <span style={{ color: "red" }}>*</span>}
                             </legend>
                             <Input
                                 type="select"
@@ -223,7 +223,7 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
                                 disabled={!isSizeSelected}
                             >
                                 <option value="" hidden>
-                                    Hamur Kalinligi Seciniz
+                                    Hamur Kalınlığı Seçiniz
                                 </option>
                                 {
                                     priceData.thickness.map((thickness, index) => {
@@ -234,14 +234,14 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
                                     })
                                 }
                             </Input>
-                            {isSizeSelected && !isThicknessSelected ? <span className='input-alert'> Siparise devam etmek icin hamur kalinligini sec. Waiting for Pizza response!!!</span> : <span className='input-alert' style={{ visibility: "hidden" }}>Siparise devam etmek icin hamur kalinligini sec. Waiting for Pizza response!!!</span>}
+                            {isSizeSelected && !isThicknessSelected ? <span className='input-alert'> Siparişe devam etmek için hamur kalınlığını seç. Waiting for Pizza response!!!</span> : <span className='input-alert' style={{ visibility: "hidden" }}>Siparise devam etmek icin hamur kalinligini sec. Waiting for Pizza response!!!</span>}
                         </FormGroup>
                     </div>
                     {/* Checkbox Selection */}
 
                     <FormGroup className="extras-container">
                         <legend>
-                            Ilave Malzemeler {isSizeSelected && isThicknessSelected && <span className='input-alert'> Simdi diledigin malzemeleri secebilirsin... ADV varken MVP mi kalalim?!</span>}
+                            İlave Malzemeler {isSizeSelected && isThicknessSelected && <span className='input-alert'> Şimdi dilediğin malzemeleri seçebilirsin... ADV varken MVP mi kalalım?!</span>}
                         </legend>
                         <br />
                         <span className='description-extras' >Not: Standart pizzada pizza sosu ve mozarella peyniri bulunur.</span>
@@ -272,25 +272,25 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
 
                         <FormGroup>
                             <legend htmlFor="name-input">
-                                Isim {isSizeSelected && isThicknessSelected && !isNameActive && <span className='input-alert'> Siparisini tamamlamadan once, kim bu sansli midenin sahibi?</span>}
+                                Isim {isSizeSelected && isThicknessSelected && !isNameActive && <span className='input-alert'> Siparişini tamamlamadan önce, kim bu şanslı midenin sahibi?</span>}
                             </legend>
                             <Input
                                 type="text"
                                 name="name"
                                 id="name-input"
-                                placeholder="Isim giriniz..."
+                                placeholder="İsim giriniz..."
                                 onChange={changeHandler}
                             />
                         </FormGroup>
                         <FormGroup>
                             <legend htmlFor="additionalNotes">
-                                Siparis Notu
+                                Sipariş Notu
                             </legend>
                             <Input
                                 type="text"
                                 name="special_note"
                                 id="special-text"
-                                placeholder="Siparise eklemek istediginiz bir sey var mi?"
+                                placeholder="Siparişe eklemek istediğiniz bir şey var mı?"
                                 onChange={changeHandler}
                             />
                         </FormGroup>

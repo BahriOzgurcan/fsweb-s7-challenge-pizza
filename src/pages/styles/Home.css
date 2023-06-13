@@ -4,7 +4,8 @@
 
 .home-background-red {
     background-color: #CE2829;
-    height: 100vh;
+    height: 100%;
+
 }
 
 .home-text-detail {
@@ -53,5 +54,8 @@
         left: 50%;
         transform: translateX(-50%) rotate(180deg);
     }
-
+    .home-background-red {
+        background-color: #CE2829;
+        height: 100vh;
+    }
 }

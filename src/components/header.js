@@ -14,10 +14,10 @@ const Header = () => {
                             Ana Sayfa
                         </NavLink>
                         <NavLink to="/pizza" activeclassname='active'>
-                            Siparis Ver
+                            Sipariş Ver
                         </NavLink>
                         <NavLink to="/success" activeclassname='active'>
-                            Siparisi Takip Et
+                            Siparişi Takip Et
                         </NavLink>
                     </div>
                 </div>
