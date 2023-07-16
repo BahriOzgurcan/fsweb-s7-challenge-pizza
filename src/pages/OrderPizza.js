@@ -45,7 +45,6 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
         thickness: "",
         special_note: "",
         extra: [],
-        quantity: "",
     });
 
     const changeHandler = (e) => {
@@ -156,15 +155,15 @@ const OrderPizza = ({ orderSent, setPizzaStock, pizzaStock }) => {
             })
     }, [orderForm])
 
-    useEffect(() => {
-        console.log(pizzaStock)
-    }, [pizzaStock])
+    // useEffect(() => {
+    //     console.log(pizzaStock)
+    // }, [pizzaStock])
 
 
-    useEffect(() => {
-        console.log("Siparis Ozeti", [orderForm])
-        console.log("Form hata", [formError])
-    }, [orderForm]);
+    // useEffect(() => {
+    //     console.log("Siparis Ozeti", [orderForm])
+    //     console.log("Form hata", [formError])
+    // }, [orderForm]);
 
     return (
         <>

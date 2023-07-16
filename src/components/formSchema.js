@@ -15,7 +15,7 @@ const formSchema = Yup.object().shape({
         .number()
         .integer()
         .min(1, "1 adetten az pizza secimi yapilamaz"),
-        special_note: Yup
+    special_note: Yup
         .string(),
 });
 
